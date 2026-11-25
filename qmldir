@@ -1,0 +1,5 @@
+module UIKit
+plugin UiKitLib
+Main 1.0 Main.qml
+Btn 1.0 Components/Btn.qml
+singleton AppTheme 1.0 Styles/AppTheme.qml

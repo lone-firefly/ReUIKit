@@ -1,0 +1,14 @@
+# Qt Creator: персональные настройки проекта
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+*.autosave
+
+# Сборочные каталоги и артефакты
+build/
+build-*/
+cmake-build-*/
+.qtc_clangd/
+compile_commands.json
+
+# Локальные заметки/архивы
+*.txt
