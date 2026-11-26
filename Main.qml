@@ -155,6 +155,44 @@ Window {
                 btnRadius: 16
             }
 
+            // ============ ReRoundBtn ============
+            Text {
+                text: "ReRoundBtn"
+                color: UiTheme.textPrimary
+                font.pixelSize: UiTheme.fontSizeLarge
+                font.bold: true
+            }
+
+            Flow {
+                width: parent.width
+                spacing: 12
+
+                ReRoundBtn {
+                    text: "+"
+                    onClicked: console.log("Нажата круглая +")
+                }
+
+                ReRoundBtn {
+                    text: "−"
+                    styleType: "Simple"
+                }
+
+                ReRoundBtn {
+                    text: "x"
+                    enabled: false
+                }
+
+                // Кастомная: увеличенный диаметр и свои цвета
+                ReRoundBtn {
+                    text: "menu"
+                    diameter: 56
+                    bgColor: "#7C3AED"
+                    hoverColor: "#6D28D9"
+                    pressColor: "#5B21B6"
+                    txtColor: "white"
+                }
+            }
+
             // ============ ReInput ============
             Text {
                 text: "ReInput"
